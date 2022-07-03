@@ -6,7 +6,7 @@ describe("breakfast", () => {
     bfast = new Breakfast('eggs', 'juice')
     expect(bfast.food).to.equal('eggs')
     expect(bfast.drink).to.equal('juice')
-  })
+  }) 
 })
 
 describe("lunch", () => {
